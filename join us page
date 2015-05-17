@@ -1,0 +1,129 @@
+<!DOCTYPE HTML>
+<HTML>
+<head>
+  <title>SRH Hochscule</title>
+    <link href="site.css" rel="stylesheet">
+	<img src="logo1.png"
+style="width:170px;height:100px">
+<span style="display:inline-block; width: 10px;"></span>
+<img src="logo2.png"
+style="width:170px;height:100px">
+<span style="display:inline-block; width: 30px;"></span>
+<img src="logo3.png"
+style="width:840px;height:100px">
+	<style>
+/* Background Image*/	
+	body{
+	background-image:url(srh5.png);
+	    background-size: 1280px 800px;
+	}
+	#header {
+	width:1200px;
+	
+    background-color:white;
+    color:white;
+    text-align:left;
+    padding:5px;
+}
+#nav {
+    line-height:30px;
+    background-color:white;
+    height:357px;
+    width:400px;
+    float:left;
+    padding:5px;	      
+}
+#section {
+background-color:white;
+    line-height:30px;
+    width:790px;
+    float:left;
+    padding:5px;
+	
+}
+
+#foot{
+width:805px;
+height:200px;
+
+}
+
+
+
+	<!-- Start WOWSlider.com HEAD section --> <!-- add to the <head> of your page -->
+	<link rel="stylesheet" type="text/css" href="engine0/style.css" />
+	<script type="text/javascript" src="engine0/jquery.js"></script>
+	
+	</style>
+</head>
+	
+	<!-- End WOWSlider.com HEAD section --></head>
+<BODY>
+<nav id="nav01"></nav>
+<div id="header">
+<h1>Join us</h1>
+</div>
+
+<div id="nav">
+
+<p> Ludwig-Guttmann-Straße 6, 69123 Heidelberg</p>
+<p>info@mysite.com</p>
+<p>Tel: 123-456-7890</p>
+<p>Fax: 123-456-7890</p>
+</div>
+
+<div id="section">
+<table >
+  <tr>
+   <td><input type="text" name="FirstName" value="Name"><br>
+   <input type="text" name="FirstName" value="Email"><br>
+   <input type="text" name="FirstName" value="Subject"><br>
+  <TEXTAREA Name="content" ROWS=2 COLS=80 value="message"></TEXTAREA><input type="submit" value="send"><td>
+  
+  </tr>
+  <tr>
+  <td div id="foot">
+ 
+  </td>
+  </table>
+</div> 
+
+
+
+<div id="foot01"></footer>
+</div>
+
+
+ 
+
+
+
+ 
+  
+  
+  
+  
+
+
+    
+ 
+  
+
+  <script src="script.js"></script>
+   <script src="https://maps.googleapis.com/maps/api/js"></script>
+    <script>
+      function initialize() {
+        var mapCanvas = document.getElementById('foot');
+        var mapOptions = {
+          center: new google.maps.LatLng(49.415133, 8.649330),
+          zoom: 7,
+          mapTypeId: google.maps.MapTypeId.ROADMAP
+        }
+        var map = new google.maps.Map(mapCanvas, mapOptions)
+      }
+      google.maps.event.addDomListener(window, 'load', initialize);
+    </script>
+	
+	
+</BODY>
+</HTML>
